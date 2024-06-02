@@ -1,0 +1,41 @@
+.contact-link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--main-text-color);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    text-decoration: none;
+    }
+    .contact-link:hover{
+        color: var(--accent-color);
+    }
+    .contact-link:hover svg{
+        fill: var(--accent-color);
+    }
+    .contact-list:first-child{
+        margin: 30px;
+    }
+    .contact-list:first-child::before{
+        margin-right: 10px;
+        content: "";
+        display: flex;
+        width: 12px;
+        height: 16px;
+        background-image: url(./images/envelope.jpg);
+        background-size: cover;
+    }
+    .contact-list:first-child::before{
+        margin-right: 10px;
+        content: "";
+        display: flex;
+        width: 16px;
+        height: 10px;
+        background-image: url(./images/Vectorphone.jpg);
+        background-size: cover;
+    }
+    .contact-list{
+        display: flex;
+        gap: 30px;
+    }

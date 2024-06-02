@@ -1,0 +1,35 @@
+:root{
+    --header-icon-color: #000000;
+    --what-we-do-text-color: #FFFFFF;
+    --titles-color: #212121;
+    --main-text-color: #757575;
+    --accent-color: #2196F3;
+    --footer-text-color:#FFFFFF ;
+    --footer-bg-color: #2F303A;
+    --team-bg-color: #F5F4FA;
+    --banner-text-color: #FFFFFF;
+    --icon-color: #AFB1B8;
+    --transition-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+body{
+box-sizing: border-box;
+font-family: Roboto;
+font-style: normal;
+line-height: normal;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, p{
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
